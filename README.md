@@ -2,16 +2,18 @@
 
 ## Project Description
 
-This project is part of an echocardiography study where a research cohort woth aortic stenosis patients and healthy controls have been followed over time, with the aim of finding an ultrasound marker for myocardial fibrosis. An echocardiography protocol including High Frane Rate (HFR) ultrasound has been used for this purpuse, focusing mainly on the myocardial tissue. Additional high fram rate color doppler echocardiography loops with focus on the blood pool (left ventricle and left atrium), and with raw data on IQ level (RF) have been secured in a selection of study participants with adequate acoustic window. This part of the echocardiography study protocol is the basis for the project covered in this repository. Using higher than conventional frame rate for coor doppler acquisitions, allows for blood speckle imgaing (BSI)
+This project is part of an echocardiography study where a research cohort woth aortic stenosis patients and healthy controls have been followed over time, with the aim of finding an ultrasound marker for myocardial fibrosis. An echocardiography protocol including High Frane Rate (HFR) ultrasound has been used for this purpuse, focusing mainly on the myocardial tissue. Additional high fram rate color doppler echocardiography loops with focus on the blood pool (left ventricle and left atrium), and with raw data on IQ level (RF) have been secured in a selection of study participants with adequate acoustic window. This part of the echocardiography study protocol is the basis for the project covered in this repository. Using higher than conventional frame rate for color doppler acquisitions, allows for blood speckle imgaing (BSI).
 
 
 ## Installation
 
-Clone the repository by 
+Clone the repository by git clone https://github.com/khoeyland/04_Blood_Speckle_Imaging.git
 
 ## Usage
 
 ## Contribution
+
+I am very grateful for invaluable engineering support from Hang Jung Ling, Lasse Løvstakken, and Solveig Fadnes in this project.
 
 Pull requests are welcomed. One can open an Issue or use Discussion for issues or discussions regarding the project.
 
