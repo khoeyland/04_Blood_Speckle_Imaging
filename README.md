@@ -21,7 +21,7 @@ Both information on Scan Assist Pro Creator, and the latest version of Scan Assi
 
 ## Contribution
 
-I am very grateful for invaluable engineering support from Hang Jung Ling, Lasse Løvstakken, and Solveig Fadnes in this project.
+I am very grateful for invaluable engineering support from Hang Jung Ling ( @HangJung97 ), Lasse Løvstakken, and Solveig Fadnes in this project.
 
 Pull requests are welcomed. One can open an Issue or use Discussion for issues or discussions regarding the project.
 
