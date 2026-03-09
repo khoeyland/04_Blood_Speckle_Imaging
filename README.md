@@ -14,9 +14,9 @@ Clone the repository by git clone https://github.com/khoeyland/04_Blood_Speckle_
 
 Blood speckle imaging echocardiography loops are acquired at the end of a comprehensive high frame rate echocardiography protocol - on eligible study participants that also could endure some extra 15-20 minutes on the echo bench.
 
-A Scan Assist Pro protocol (GE software) has been used to aid in correct echo loop acquisitions during scanning, and to optimize data structure for post processing. With the software Scan Assist Pro Creator, files with extension .uep can be opened in this program, and the echo protool will be shown, as it also will appear step by step during scanning.
+A Scan Assist Pro protocol (GE software) has been used to aid in correct echo loop acquisitions during scanning, and to optimize data structure for post processing. With the software Scan Assist Pro Creator, files with extension .uep can be opened in this program, and the echo protool will be shown, as it also will have appeared step by step during the ultrasound scanning.
 
-Both information on Scan Assist Pro Creator, and the latest version of Scan Assist Pro protocol, are located in the documentation folder in this repository. The BSI part og the echo study protocol starts from step .. and goes to the end of the echo protocol.
+Both information on Scan Assist Pro Creator, and the latest version of Scan Assist Pro protocol, are located in the documentation folder in this repository. The BSI part og the echo study protocol starts from step 165 and goes to the end of the echo protocol.
 
 
 ## Folder tree structure of this repository
@@ -44,6 +44,22 @@ Both information on Scan Assist Pro Creator, and the latest version of Scan Assi
     │   └── fig1.pdf
     └── tables/
         └── table1.tex
+```
+
+## Data structure after transfer of echo data from research echo scanner
+
+Echocardiography studies have been exported from the scanner in such a way that each study have their own separate dicomdir file, and each study has then been arranged in the following manner:
+
+```
+Study-ID 1/
+    ├── GEMS_IMG/
+    ├── DICOMDIR
+Study-ID 2/
+    ├── GEMS_IMG/
+    ├── DICOMDIR
+Study-ID 3/
+    ├── GEMS_IMG/
+    └── DICOMDIR
 ```
 
 ## Contribution
