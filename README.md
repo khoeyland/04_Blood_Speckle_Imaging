@@ -19,6 +19,33 @@ A Scan Assist Pro protocol (GE software) has been used to aid in correct echo lo
 Both information on Scan Assist Pro Creator, and the latest version of Scan Assist Pro protocol, are located in the documentation folder in this repository. The BSI part og the echo study protocol starts from step .. and goes to the end of the echo protocol.
 
 
+## Folder tree structure of this repository
+
+```
+04_Blood_Speckle_Imaging/
+├── .gitignore
+├── R/
+│   └── 01_read_data.R
+├── README.md
+├── data/
+│   └── 2026-03-08_BSI-and-TDI_SAS-F-5.xlsx
+├── documentation/
+│   ├── 2026-02-24_HFR-protocol_Full.uep
+│   ├── Vivid S70 204 Scan Assist Pro Creator.pdf
+│   └── archive/
+│       └── 2025-12-12_HFR-protocol_Full.uep
+├── manuscript/
+│   ├── main.tex
+│   └── sections/
+│       ├── introduction.tex
+│       └── methods.tex
+└── output/
+    ├── figures/
+    │   └── fig1.pdf
+    └── tables/
+        └── table1.tex
+```
+
 ## Contribution
 
 I am very grateful for invaluable engineering support from Hang Jung Ling ( @HangJung97 ), Lasse Løvstakken, and Solveig Fadnes in this project.
