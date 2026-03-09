@@ -62,6 +62,9 @@ Study-ID 3/
     └── DICOMDIR
 ```
 
+Study_IDs for echcoardiography studies with best quality from initial judgement during scanning and data cleaning: 
+30404, 83354, 41820, 49675, 51844, 600, 55916, 127, 52979, 92849, 2213, 77705, and 27190.
+
 ## Contribution
 
 I am very grateful for invaluable engineering support from Hang Jung Ling ( @HangJung97 ), Lasse Løvstakken, and Solveig Fadnes in this project.
