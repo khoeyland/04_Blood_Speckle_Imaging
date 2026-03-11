@@ -44,6 +44,7 @@ The BSI protocol is only part of the combined protocol, and BSI has been perform
 │   └── 2026-03-11_BSI-and-TDI_SAS-F-5.xlsx
 ├── documentation/
 │   ├── 2026-02-24_HFR-protocol_Full.uep
+│   ├── 2026-03-11_Scan-assist-pro_steps-outlined-with-comments.pdf
 │   ├── Vivid S70 204 Scan Assist Pro Creator.pdf
 │   ├── archive/
 │   │   └── 2025-12-12_HFR-protocol_Full.uep
