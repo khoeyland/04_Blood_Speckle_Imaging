@@ -69,9 +69,9 @@ There are also a few research echo study from before 12.12.2025 that has been ex
 For all the other echo studies in the project that do not have been exported in such a way that a separate dicomdir file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to be able to separate different components of the echo studies from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with. The output from this Python script was stored on a external hard drive borrowed from Lasse, in a folder named: To Hang Jung
 
 13.01.2026: Echocardiography studies distributed on external hard drive. Study ID 28619, 30404, 83354, 41830, 49675.
-![USB-external-hard-disc](https://github.com/user-attachments/assets/c2104a89-f1be-489a-9c94-a5221effff1a)
 
-11.03.2026: Echocardiography studies distributed on external hard drive. Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379. ![2026-03-10_Echo-data_SAS-F-5](https://github.com/user-attachments/assets/5723b71b-7ae3-435f-a943-56373e089a55)
+
+11.03.2026: Echocardiography studies distributed on external hard drive. Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379. 
 
 
 
