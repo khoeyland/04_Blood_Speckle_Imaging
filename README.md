@@ -31,12 +31,15 @@ The documentation folder has a subfolder named "archive" where older versions of
 │   └── 01_read_data.R
 ├── README.md
 ├── data/
-│   └── 2026-03-08_BSI-and-TDI_SAS-F-5.xlsx
+│   └── 2026-03-11_BSI-and-TDI_SAS-F-5.xlsx
 ├── documentation/
 │   ├── 2026-02-24_HFR-protocol_Full.uep
 │   ├── Vivid S70 204 Scan Assist Pro Creator.pdf
-│   └── archive/
-│       └── 2025-12-12_HFR-protocol_Full.uep
+│   ├── archive/
+│   │   └── 2025-12-12_HFR-protocol_Full.uep
+│   └── images/
+│       ├── 2026-01-13_Echo-data_SAS-F-5.jpg
+│       └── 2026-03-10_Echo-data_SAS-F-5.jpg
 ├── manuscript/
 │   ├── main.tex
 │   └── sections/
@@ -48,6 +51,8 @@ The documentation folder has a subfolder named "archive" where older versions of
     └── tables/
         └── table1.tex
 ```
+
+The documentation/archive folder will contain more files than shown here, but will be left out to keep the file tree short. <br>
 
 ## Data structure and history after transfer of echo data from the research echo scanner
 
