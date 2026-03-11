@@ -71,7 +71,7 @@ For all the other echo studies in the project that do not have been exported in 
 13.01.2026: Echocardiography studies distributed on external hard drive. Study ID 28619, 30404, 83354, 41830, 49675.
 ![USB-external-hard-disc](https://github.com/user-attachments/assets/c2104a89-f1be-489a-9c94-a5221effff1a)
 
-11.03.2025: Echocardiography studies distributed on external hard drive. Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379. ![2026-03-10_Echo-data_SAS-F-5](https://github.com/user-attachments/assets/5723b71b-7ae3-435f-a943-56373e089a55)
+11.03.2026: Echocardiography studies distributed on external hard drive. Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379. ![2026-03-10_Echo-data_SAS-F-5](https://github.com/user-attachments/assets/5723b71b-7ae3-435f-a943-56373e089a55)
 
 
 
