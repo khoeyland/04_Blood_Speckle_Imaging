@@ -46,9 +46,11 @@ Both information on Scan Assist Pro Creator, and the latest version of Scan Assi
         └── table1.tex
 ```
 
-## Data structure after transfer of echo data from research echo scanner
+## Data structure after transfer of echo data from the research echo scanner
 
-Echocardiography studies have been exported from the scanner in such a way that each study have their own separate dicomdir file, and each study has then been arranged in the following manner:
+All echocardiography studies in this research study, have been exported to external hard drive as DICOM USB Harrdisk/Memstick(...). From 14.03.2025 (study ID 23934) 2025, all echo studies have also been exported as USB Harddisk/Memstick(...).
+
+From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate dicomdir file, and each of these studies have then been arranged in the following manner:
 
 ```
 Study-ID 1/
@@ -62,8 +64,14 @@ Study-ID 3/
     └── DICOMDIR
 ```
 
+There are also a few research echo study from before 12.12.2025 that has been exported from the E95 scanner in such a way that a separate dicom dir file was secured for the study. These were echo studies that had still not been deleted from the echo scanner at that point, and a repeat export could then be done. These echo studies are study IDs 2213 (18.11.2025) and 27190 (28.07.2025).
+
+For all the other echo studies in the project that do not have been exported in such a way that a separate dicomdir file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to be able to separate different components of the echo studies from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with.   
+
+## Intitial data exploration
+
 Study_IDs for echcoardiography studies with best quality from initial judgement during scanning and data cleaning: 
-30404, 83354, 41820, 49675, 51844, 600, 55916, 127, 52979, 92849, 2213, 77705, and 27190.
+30404, 83354, 41820, 49675, 51844, 600, 55916, 127, 52979, 92849, 2213, 77705, 27190, 11360, and 42379.
 
 ## Contribution
 
