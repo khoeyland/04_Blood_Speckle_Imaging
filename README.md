@@ -20,6 +20,16 @@ Both information on Scan Assist Pro Creator, and the latest version of Scan Assi
 
 The documentation folder has a subfolder named "archive" where older versions of the Scan Assist Pro protocol used in this poject, are archived. This is for reference, in the rare case it can somehow add structure for the post-processing steps, and for keeping the history of the project. The number of versions reflect technical challanges during the project. Changes from one version to the next tend to not be big, but from version 15 there was a major change, wherein the alignment of 2D B-mode hfr, tdi and tdi-iq hfr imaging was ordered in a moret efficient and logical way - to make sure each projection did not have to be acquired several times. All images ideally should also be made with the same probe positioning, and this was the main argument for the shift of protocol layout. 
 
+The latest Scan Assist Protocol version (23) has file name 2026-02-24_HFR_protocol_Full.uep , and the main parts are:
+
+Step 1-91:    Clinical part of the echocardiagram
+Step 92-158:  2D HFR ultrasound (2D B-mode, TDI, TDI-IQ)
+Step 159-164  3D HFR ultrasound (done only in selected cases)
+Step 165-196: BSI
+
+So, the BSI protocol is a smaller part of the protocol, and BSI has been performed in suitable study participants who could endure an extra 15-20 minutes at the end of an otherwise extensive echocardiography protocol. There are echo loops in the clinical part of the echo protocol that can be of relevance for BSI. 
+
+
 
 
 ## Folder tree structure of this repository
