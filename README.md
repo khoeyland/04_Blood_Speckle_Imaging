@@ -32,39 +32,6 @@ When arriving at the BSI part of the protocol, I shift from prospective to retro
 The BSI protocol is only part of the combined protocol, and BSI has been performed in suitable study participants who could endure an extra 15-20 minutes at the end of an otherwise extensive echocardiography protocol. However, there are echo loops in the clinical part of the echo protocol that can be of relevance for BSI. I record ordinary color flow images from the main echo protocol - from all standard views (plax, apical 4, apical 2, and apical 3 chamber). In the documentation folder there is a pdf file with the most recent version of the HFR protocol, and I have marked the steps where the color flow images occur for these standard views (step 3, 29, 52, and 63). There are also other color flow images from other views. The color boxes have been placed primarily to visualize the integrity of the mitral and aortic valve, and it will not for every case cover the whole of the left ventricle and/or the whole of the left atrium. But at least both the mitral inflow and the LVOT flow have been visualized for all echocardiograms. I have not adjusted the frame rate for these color flow acquisitions, but I have rather accepted the frame rate that comes with the standard research settings on the scanner.
 
 
-## Folder tree structure of this repository
-
-```
-04_Blood_Speckle_Imaging/
-├── .gitignore
-├── R/
-│   └── 01_read_data.R
-├── README.md
-├── data/
-│   └── 2026-03-11_BSI-and-TDI_SAS-F-5.xlsx
-├── documentation/
-│   ├── 2026-02-24_HFR-protocol_Full.uep
-│   ├── 2026-03-11_Scan-assist-pro_steps-outlined-with-comments.pdf
-│   ├── Vivid S70 204 Scan Assist Pro Creator.pdf
-│   ├── archive/
-│   │   └── 2025-12-12_HFR-protocol_Full.uep
-│   └── images/
-│       ├── 2026-01-13_Echo-data_SAS-F-5.jpg
-│       └── 2026-03-10_Echo-data_SAS-F-5.jpg
-├── manuscript/
-│   ├── main.tex
-│   └── sections/
-│       ├── introduction.tex
-│       └── methods.tex
-└── output/
-    ├── figures/
-    │   └── fig1.pdf
-    └── tables/
-        └── table1.tex
-```
-
-The documentation/archive folder will contain more files than shown here, but will be left out to keep the file tree short. <br>
-
 ## Data structure and history after transfer of echo data from the research echo scanner
 
 All echocardiography studies in this research study, have been exported to external hard drive as DICOM USB Harrdisk/Memstick(...). From 14.03.2025 (study ID 23934) 2025, all echo studies have also been exported as USB Harddisk/Memstick(...).
@@ -101,6 +68,40 @@ Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379
 
 Study_IDs for echcoardiography studies with best quality from initial judgement during scanning and data cleaning: 
 30404, 83354, 41820, 49675, 51844, 600, 55916, 127, 52979, 92849, 2213, 77705, 27190, 11360, and 42379.
+
+
+## Folder tree structure of this repository
+
+```
+04_Blood_Speckle_Imaging/
+├── .gitignore
+├── R/
+│   └── 01_read_data.R
+├── README.md
+├── data/
+│   └── 2026-03-11_BSI-and-TDI_SAS-F-5.xlsx
+├── documentation/
+│   ├── 2026-02-24_HFR-protocol_Full.uep
+│   ├── 2026-03-11_Scan-assist-pro_steps-outlined-with-comments.pdf
+│   ├── Vivid S70 204 Scan Assist Pro Creator.pdf
+│   ├── archive/
+│   │   └── 2025-12-12_HFR-protocol_Full.uep
+│   └── images/
+│       ├── 2026-01-13_Echo-data_SAS-F-5.jpg
+│       └── 2026-03-10_Echo-data_SAS-F-5.jpg
+├── manuscript/
+│   ├── main.tex
+│   └── sections/
+│       ├── introduction.tex
+│       └── methods.tex
+└── output/
+    ├── figures/
+    │   └── fig1.pdf
+    └── tables/
+        └── table1.tex
+```
+
+The documentation/archive folder will contain more files than shown here, but will be left out to keep the file tree short. <br>
 
 ## Contribution
 
