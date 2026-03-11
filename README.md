@@ -71,6 +71,7 @@ For all the other echo studies in the project that do not have been exported in 
 13.01.2026: Echocardiography studies distributed on external hard drive. Study ID 28619, 30404, 83354, 41830, 49675. 
 <img src="documentation/images/2026-01-13_Echo-data_SAS-F-5.jpg" width="30%" />
 <br>
+<br>
 11.03.2026: Echocardiography studies distributed on external hard drive. Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379. <br>
 <img src="documentation/images/2026-03-10_Echo-data_SAS-F-5.jpg" width="30%" />
 
