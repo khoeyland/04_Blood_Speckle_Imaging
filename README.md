@@ -48,12 +48,12 @@ Study IDs: ...
 
 #### 3. Third BSI protocol
 
-Description: Second protocol + added intermediary (medium) high frame rate step in each view: Low FR (HQ), medium FR, and high FR color doppler acquisitons.+
+Description: Second protocol + added intermediary (medium) high frame rate step in each view: Low FR (HQ), medium FR, and high FR color doppler acquisitons.\
 Study IDs: ...
 
 #### 4. Fourth BSI protocol
 
-Description: Third protocol + added intermediary (moderate) high frame rate step in each view: Low FR (HQ), medium FR, moderate FR, and high FR color doppler acquisitons.+
+Description: Third protocol + added intermediary (moderate) high frame rate step in each view: Low FR (HQ), medium FR, moderate FR, and high FR color doppler acquisitons.\
 Study IDs: ...
 
 ## Data structure and history after transfer of echo data from the research echo scanner
