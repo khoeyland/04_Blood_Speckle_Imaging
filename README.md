@@ -65,6 +65,9 @@ Study IDs: 71538, 62875, 41015, 55359, 92129, 36070, 89491, 15492, 47676, 54589,
 Description: Third protocol + added intermediary (moderate) high frame rate step in each view: Low FR (HQ), medium FR, moderate FR, and high FR color doppler acquisitons.\
 Study IDs: 30404, 83354, 41820 ( = 41830), 49675, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379. 
 
+<img width="304" height="351" alt="image" src="https://github.com/user-attachments/assets/d25cd556-19b2-41b9-bb9c-1c05e07dd063" />
+
+
 ## Data structure and history after transfer of echo data from the research echo scanner
 
 All echocardiography studies in this research study, have been exported to external hard drive as DICOM USB Harrdisk/Memstick(...). From 14.03.2025 (study ID 23934) 2025, all echo studies have also been exported as USB Harddisk/Memstick(...).
