@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is part of an echocardiography study where a research cohort woth aortic stenosis patients and healthy controls have been followed over time, with the aim of finding an ultrasound marker for myocardial fibrosis. An echocardiography protocol including High Frane Rate (HFR) ultrasound has been used for this purpuse, focusing mainly on the myocardial tissue. Additional high fram rate color doppler echocardiography cine loops with focus on the blood pool (left ventricle and left atrium), and with raw data on IQ level (RF) have been secured in a selection of study participants with adequate acoustic window. This part of the echocardiography study protocol is the basis for the project covered in this repository. Using higher than conventional frame rates for color doppler acquisitions, allows for blood speckle imgaing (BSI).
+This project is part of an echocardiography study where a research cohort woth aortic stenosis patients and healthy controls have been followed over time, with the aim of finding an ultrasound marker for myocardial fibrosis. An echocardiography protocol including High Frane Rate (HFR) ultrasound has been used for this purpose, focusing mainly on the myocardial tissue. Additional high fram rate color doppler echocardiography cine loops with focus on the blood pool (left ventricle and left atrium), and with raw data on IQ level (RF) have been secured in a selection of study participants with adequate acoustic window. This part of the echocardiography study protocol is the basis for the project covered in this repository. Using higher than conventional frame rates for color doppler acquisitions, allows for blood speckle imgaing (BSI).
 
 
 ## Installation
@@ -14,11 +14,11 @@ Clone the repository by git clone https://github.com/khoeyland/04_Blood_Speckle_
 
 Blood speckle imaging echocardiography loops are acquired at the end of a comprehensive high frame rate echocardiography protocol - on eligible study participants that also could endure some extra 15-20 minutes on the echo bench.
 
-A Scan Assist Pro protocol (GE software) has been used to aid in correct echo loop acquisitions during scanning, and to optimize data structure for post processing. With the software Scan Assist Pro Creator, files with extension .uep can be opened in this program, and the echo protool will be shown, as it also will have appeared step by step during the ultrasound scanning.
+A Scan Assist Pro protocol (GE software) has been used to aid in standardization of echo loop acquisitions during scanning, and to optimize data structure for post processing. With the software Scan Assist Pro Creator, files with extension .uep can be opened in this program, and the echo protool will be shown, as it also will have appeared step by step during the ultrasound scanning of the heart.
 
-Both information on Scan Assist Pro Creator, and the latest version of Scan Assist Pro protocol, are located in the documentation folder in this repository. The BSI part of the echo study protocol starts - in the latest version (23) - from step 165 and goes to the end of the echo protocol (step 199).
+Both information on Scan Assist Pro Creator, and the latest version of Scan Assist Pro protocol, are located in the documentation folder in this repository. The BSI part of the echo study protocol starts - in the latest version - from step 165 and goes to the end of the echo protocol (step 199). Se version history of HFR protocol for the stup of older BSI versions that has existed during the inclusion of study participants.
 
-The documentation folder has a subfolder named "archive" where older versions of the Scan Assist Pro protocol used in this poject, are archived. This is for reference, in the rare case it can somehow add structure for the post-processing steps, and for keeping the history of the project. The number of versions reflect technical challanges during the project. Changes from one version to the next tend to not be big, but from version 15 there was a major change, wherein the alignment of 2D B-mode hfr, tdi and tdi-iq hfr imaging was ordered in a moret efficient and logical way - to make sure each projection did not have to be acquired several times. All images ideally should also be made with the same probe positioning, and this was the main argument for the shift of protocol layout. 
+The documentation folder has a subfolder named "archive" where older versions of the Scan Assist Pro protocol used in this poject, are archived. This is for reference, in the rare case it can somehow add structure for the post-processing steps, and for keeping the history of the project. The number of versions reflect technical challanges during the project, and it has mainly affected the part of the protocol that deals with HFR ultrasound on myocardial tissue, and to a lesser extent has it affected the BSI protocol. 
 
 The latest Scan Assist Protocol version (23) has file name 2026-02-24_HFR_protocol_Full.uep , and the main parts are:
 
@@ -30,10 +30,33 @@ Step 165-196: BSI (apical 4, 2 and 3 chamber + plax. Aqcuisitions are done for L
 In general, the BSI part of the protocol has been subject to less changes than the HFR part of the protocol.
 
 When arriving at the BSI part of the protocol, I currently shift from prospective to retrospective acquisitions. In the beginning of the study, I did continue prospective cine loop acquisitions also for BSI, as this is required for the data dumps during HFR ultrasound. After the switch from prospective to retrospective, it has been easier to get better quality images, especially for patients with an irregular heart rhythm. 
-I turn on RF data, and I deactivate Variance button. In the latest protocol version, I first record data at the frame rate index 0, then intermediate step 1 (around 60 fps), then intermediate step 2 (often somewhere between ~80 and ~110 fps), and finally at the maximal position for frame rate button (often somewhere between 180 and 190 fps). Ocassionaly, I drift apart from the actual steps in the prootocol, but the drift is never big, and I correct this as soon as I discover it.
+Further, I turn on RF data, and I deactivate Variance button. In the latest protocol version, I first record data at the frame rate index 0, then intermediate step 1 (around 60 fps), then intermediate step 2 (often somewhere between ~80 and ~120 fps), and finally at the maximal position for frame rate button (often somewhere between 180 and 190 fps). Ocassionaly, I drift apart from the actual steps in the prootocol, but the drift is never big, and I correct this as soon as I discover it.
 
 The BSI protocol is only part of the research protocol, and BSI has been performed in suitable study participants who could endure an extra 15-20 minutes at the end of an otherwise extensive echocardiography protocol. However, there are echo loops in the clinical part of the echo protocol that can be of relevance for BSI. I record ordinary color flow images from the main echo protocol - from all standard views (plax, apical 4, apical 2, and apical 3 chamber). In the documentation folder there is a pdf file with the most recent version of the HFR protocol, and I have marked the steps where the color flow images occur for these standard views (step 3, 29, 52, and 63, respectively). There are also other color flow images from other echo views. The color box has been placed primarily to visualize the integrity of the mitral and aortic valve, and it will not for every case cover the whole of the left ventricle and/or the whole of the left atrium. But at least both the mitral inflow and the LVOT flow have been visualized for all echocardiograms. I have not adjusted the frame rate for these clinical color flow acquisitions, but I have rather accepted the frame rate that comes with the standard research settings on the scanner.
 
+### Version history of BSI protocol
+
+#### 1. Experimental first protocol
+
+Description: Varying color doppler box sector width angle (~ 60, 30, and 15 degrees). With reference to studies done in pediatric cardiology for intraventricular pressure difference (IVPD) assessment of the left ventrivle.
+Study IDs: ...
+
+
+#### 2. Second BSI protocol
+
+Description: Covering the whole LV chamber always with the color doppler box. Acquired two images per view (HQ: frame rate knob at lowest level; HFR: frame rate knob at highest level). Approach of varying the color box sector angle (~ 60, 30, and 15 degrees) was abandoned.
+Study IDs: ...
+
+
+#### 3. Third BSI protocol
+
+Description: Second protocol + added intermediary (medium) high frame rate step in each view: Low FR (HQ), medium FR, and high FR color doppler acquisitons.
+Study IDs: ...
+
+#### 4. Fourth BSI protocol
+
+Description: Third protocol + added intermediary (moderate) high frame rate step in each view: Low FR (HQ), medium FR, moderate FR, and high FR color doppler acquisitons.
+Study IDs: ...
 
 ## Data structure and history after transfer of echo data from the research echo scanner
 
