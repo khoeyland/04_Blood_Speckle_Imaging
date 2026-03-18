@@ -41,7 +41,7 @@ The BSI protocol is only part of the research protocol, and BSI has been perform
 Description: Varying color doppler box sector width angle (~ 60, 30, and 15 degrees). With reference to studies done in pediatric cardiology for intraventricular pressure difference (IVPD) assessment of the left ventricle. Imaging mainly performed from apical 4 chamber and PLAX.\
 Study IDs (in chronological order, this info is also coded into excel file in data folder): 33154, 70346, 62312, 40987, 50268, 68852, 95209, 59886, 13633. 
 
-<img width="307" height="88" alt="image" src="https://github.com/user-attachments/assets/0655152d-818e-4df3-9467-16ef109fd42a" />
+<img width="368" height="106" alt="image" src="https://github.com/user-attachments/assets/0655152d-818e-4df3-9467-16ef109fd42a" />
 
 
 #### 2. Second version of BSI protocol
@@ -49,7 +49,7 @@ Study IDs (in chronological order, this info is also coded into excel file in da
 Description: Covering the whole LV chamber always with the color doppler box. Acquired two images per view (HQ: frame rate knob at lowest level; HFR: frame rate knob at highest level). Approach of varying the color box sector angle (~ 60, 30, and 15 degrees) was abandoned.\
 Study IDs: 21443, 34929, 47637, 66497, 30674, 56075, 28734, 5883, 9849, 9300, 49698, 51762, 92107, 93789, 27190, 77614, 5803, 47205, 31808.
 
-<img width="305" height="175" alt="image" src="https://github.com/user-attachments/assets/411c8995-67d7-469f-bd72-a222581728ea" />
+<img width="366" height="210" alt="image" src="https://github.com/user-attachments/assets/411c8995-67d7-469f-bd72-a222581728ea" />
 
 
 #### 3. Third version of BSI protocol
@@ -57,7 +57,7 @@ Study IDs: 21443, 34929, 47637, 66497, 30674, 56075, 28734, 5883, 9849, 9300, 49
 Description: Second protocol + added intermediary (medium) high frame rate step in each view: Low FR (HQ), medium FR, and high FR color doppler acquisitons.\
 Study IDs: 71538, 62875, 41015, 55359, 92129, 36070, 89491, 15492, 47676, 54589, 63757, 77705, 45714, 37725, 98109, 23709, 203, 13151, 28344, 2213.
 
-<img width="306" height="275" alt="image" src="https://github.com/user-attachments/assets/ef707113-27a5-4af1-a147-ce01f0529659" />
+<img width="367" height="330" alt="image" src="https://github.com/user-attachments/assets/ef707113-27a5-4af1-a147-ce01f0529659" />
 
 
 #### 4. Fourth version of BSI protocol
@@ -65,7 +65,7 @@ Study IDs: 71538, 62875, 41015, 55359, 92129, 36070, 89491, 15492, 47676, 54589,
 Description: Third protocol + added intermediary (moderate) high frame rate step in each view: Low FR (HQ), medium FR, moderate FR, and high FR color doppler acquisitons.\
 Study IDs: 30404, 83354, 41820 ( = 41830), 49675, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379. 
 
-<img width="304" height="351" alt="image" src="https://github.com/user-attachments/assets/d25cd556-19b2-41b9-bb9c-1c05e07dd063" />
+<img width="365" height="421" alt="image" src="https://github.com/user-attachments/assets/d25cd556-19b2-41b9-bb9c-1c05e07dd063" />
 
 
 ## Data structure and history after transfer of echo data from the research echo scanner
