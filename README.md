@@ -46,11 +46,13 @@ Study IDs (in chronological order, this info is also coded into excel file in da
 Description: Covering the whole LV chamber always with the color doppler box. Acquired two images per view (HQ: frame rate knob at lowest level; HFR: frame rate knob at highest level). Approach of varying the color box sector angle (~ 60, 30, and 15 degrees) was abandoned.\
 Study IDs: 21443, 34929, 47637, 66497, 30674, 56075, 28734, 5883, 9849, 9300, 49698, 51762, 92107, 93789, 27190, 77614, 5803, 47205, 31808.
 
+<img width="305" height="175" alt="image" src="https://github.com/user-attachments/assets/411c8995-67d7-469f-bd72-a222581728ea" />
+
 
 #### 3. Third version of BSI protocol
 
 Description: Second protocol + added intermediary (medium) high frame rate step in each view: Low FR (HQ), medium FR, and high FR color doppler acquisitons.\
-Study IDs: 71538, 62875, 41015, 55359, 92129, 36070, 89491, 15492, 47676, 54589, 63757, 77705, 45714, 37725, 98109, 23709, 203, 13151, 28344, 2213.\ 
+Study IDs: 71538, 62875, 41015, 55359, 92129, 36070, 89491, 15492, 47676, 54589, 63757, 77705, 45714, 37725, 98109, 23709, 203, 13151, 28344, 2213.
 
 <img width="306" height="275" alt="image" src="https://github.com/user-attachments/assets/ef707113-27a5-4af1-a147-ce01f0529659" />
 
