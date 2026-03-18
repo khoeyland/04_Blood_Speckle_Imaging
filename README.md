@@ -22,10 +22,10 @@ The documentation folder has a subfolder named "archive" where older versions of
 
 The latest Scan Assist Protocol version (23) has file name 2026-02-24_HFR_protocol_Full.uep , and the main parts are:
 
-Step 1-91:    Clinical part of the echocardiagram \
-Step 92-158:  2D HFR ultrasound (2D B-mode, TDI, TDI-IQ) \
-Step 159-164  3D HFR ultrasound (done only in selected cases) \
-Step 165-196: BSI (apical 4, 2 and 3 chamber + plax. Aqcuisitions are done for LA and LV, and LV alone. Four levels of frame rate are used) \
+Step 1-91:    Clinical part of the echocardiagram\
+Step 92-158:  2D HFR ultrasound (2D B-mode, TDI, TDI-IQ)\
+Step 159-164  3D HFR ultrasound (done only in selected cases)\
+Step 165-196: BSI (apical 4, 2 and 3 chamber + plax. Aqcuisitions are done for LA and LV, and LV alone. Four levels of frame rate are used)\
 
 In general, the BSI part of the protocol has been subject to less changes than the HFR part of the protocol.
 
@@ -41,18 +41,18 @@ The BSI protocol is only part of the research protocol, and BSI has been perform
 Description: Varying color doppler box sector width angle (~ 60, 30, and 15 degrees). With reference to studies done in pediatric cardiology for intraventricular pressure difference (IVPD) assessment of the left ventricle.\
 Study IDs (in chronological order, this info is also coded into excel file in data folder): 33154, 70346, 62312, 40987, 50268, 68852, 95209, 59886, 13633. 
 
-#### 2. Second BSI protocol
+#### 2. Second version of BSI protocol
 
 Description: Covering the whole LV chamber always with the color doppler box. Acquired two images per view (HQ: frame rate knob at lowest level; HFR: frame rate knob at highest level). Approach of varying the color box sector angle (~ 60, 30, and 15 degrees) was abandoned.\
 Study IDs: 21443, 34929, 47637, 66497, 30674, 56075, 28734, 5883, 9849, 9300, 49698, 51762, 92107, 93789, 27190, 77614, 5803, 47205, 31808.
 
 
-#### 3. Third BSI protocol
+#### 3. Third version of BSI protocol
 
 Description: Second protocol + added intermediary (medium) high frame rate step in each view: Low FR (HQ), medium FR, and high FR color doppler acquisitons.\
 Study IDs: 71538, 62875, 41015, 55359, 92129, 36070, 89491, 15492, 47676, 54589, 63757, 77705, 45714, 37725, 98109, 23709, 203, 13151, 28344, 2213. 
 
-#### 4. Fourth BSI protocol
+#### 4. Fourth version of BSI protocol
 
 Description: Third protocol + added intermediary (moderate) high frame rate step in each view: Low FR (HQ), medium FR, moderate FR, and high FR color doppler acquisitons.\
 Study IDs: 30404, 83354, 41820 ( = 41830), 49675, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379. 
