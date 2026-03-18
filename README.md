@@ -51,7 +51,8 @@ Study IDs: 21443, 34929, 47637, 66497, 30674, 56075, 28734, 5883, 9849, 9300, 49
 
 Description: Second protocol + added intermediary (medium) high frame rate step in each view: Low FR (HQ), medium FR, and high FR color doppler acquisitons.\
 Study IDs: 71538, 62875, 41015, 55359, 92129, 36070, 89491, 15492, 47676, 54589, 63757, 77705, 45714, 37725, 98109, 23709, 203, 13151, 28344, 2213.\ 
-<img width="613" height="550" alt="image" src="https://github.com/user-attachments/assets/ef707113-27a5-4af1-a147-ce01f0529659" />
+
+<img width="306" height="275" alt="image" src="https://github.com/user-attachments/assets/ef707113-27a5-4af1-a147-ce01f0529659" />
 
 
 #### 4. Fourth version of BSI protocol
