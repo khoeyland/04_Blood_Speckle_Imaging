@@ -35,8 +35,8 @@ Further, I turn on RF data, and I deactivate Variance button. In the latest prot
 The BSI protocol is only part of the research protocol, and BSI has been performed in suitable study participants who could endure an extra 15-20 minutes at the end of an otherwise extensive echocardiography protocol. However, there are echo loops in the clinical part of the echo protocol that can be of relevance for BSI. I record ordinary color flow images from the main echo protocol - from all standard views (plax, apical 4, apical 2, and apical 3 chamber). In the documentation folder there is a pdf file with the most recent version of the HFR protocol, and I have marked the steps where the color flow images occur for these standard views (step 3, 29, 52, and 63, respectively). There are also other color flow images from other echo views. The color box has been placed primarily to visualize the integrity of the mitral and aortic valve, and it will not for every case cover the whole of the left ventricle and/or the whole of the left atrium. But at least both the mitral inflow and the LVOT flow have been visualized for all echocardiograms. I have not adjusted the frame rate for these clinical color flow acquisitions, but I have rather accepted the frame rate that comes with the standard research settings on the scanner.
 
 ### Version history of BSI protocol
+\
 
-/>
 #### 1. Experimental first protocol
 
 Description: Varying color doppler box sector width angle (~ 60, 30, and 15 degrees). With reference to studies done in pediatric cardiology for intraventricular pressure difference (IVPD) assessment of the left ventricle.\
