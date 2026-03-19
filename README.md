@@ -60,7 +60,7 @@ Step 159-164:  3D HFR ultrasound (done only in selected cases)\
 **Step 165-196: BSI part of the protocol**:
 - Apical 4, 2 and 3 chamber + PLAX. 
 - Aqcuisitions are done first for left atrium (LA) and left ventricle (LV), and then for LV alone.
-- Four levels of frame rate are used.
+- Four levels of frame rate have been used.
   - Lowest possible frame rate (HQ) - Frame rate button to index position
   - Medium frame rate
   - Moderate frame rate
