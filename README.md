@@ -57,7 +57,7 @@ The latest Scan Assist Protocol version (23) has file name 2026-02-24_HFR_protoc
 Step 1-91:    Clinical part of the echocardiagram\
 Step 92-158:  2D HFR ultrasound (2D B-mode, TDI, TDI-IQ)\
 Step 159-164:  3D HFR ultrasound (done only in selected cases)\
-Step 165-196: **BSI part of the protocol**
+**Step 165-196: BSI part of the protocol**:
 - Apical 4, 2 and 3 chamber + PLAX. 
 - Aqcuisitions are done first for left atrium (LA) and left ventricle (LV), and then for LV alone.
 - Four levels of frame rate are used.
