@@ -81,6 +81,8 @@ There are also other color flow images from other echo views. The color box has 
 Study_IDs for echcoardiography studies with best quality from initial judgement during scanning and data cleaning: 
 30404, 83354, 41820, 49675, 51844, 600, 55916, 127, 52979, 92849, 2213, 77705, 27190, 11360, and 42379.
 
+I have created an Excel file with relevant variables to ease data exploration, and to preserve information on data structure. This file is located in the data folder. I link to the file here:\
+[2026-03-11_BSI-and-TDI_SAS-F-5.xlsx](data/2026-03-11_BSI-and-TDI_SAS-F-5.xlsx))
 
 ## Version history of BSI protocol
 
@@ -136,14 +138,14 @@ Study-ID 3/
 
 There are also a few research echo study from before 12.12.2025 that has been exported from the E95 scanner in such a way that a separate dicom dir file was secured for the study. These were echo studies that had still not been deleted from the echo scanner at that point, and a repeat export could then be done. These echo studies are study IDs 2213 (18.11.2025) and 27190 (28.07.2025).
 
-For all the other echo studies in the project that do not have been exported in such a way that a separate dicomdir file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to be able to separate different components of the echo studies from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with. The output from this Python script was stored on a external hard drive borrowed from Lasse, in a folder named: To Hang Jung
+**28.11.2025**: For all the other echo studies in the project that do not have been exported in such a way that a separate dicomdir file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to be able to separate different components of the echo studies from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with. The output from this Python script was stored on an external hard drive borrowed from Lasse, in a folder named: To Hang Jung
 
-13.01.2026: Echocardiography studies distributed on external hard drive.<br>
+**13.01.2026**: Echocardiography studies distributed on external hard drive.<br>
 Study ID 28619, 30404, 83354, 41830, 49675.<br> 
 <img src="documentation/images/2026-01-13_Echo-data_SAS-F-5.jpg" width="30%" />
 <br>
 <br>
-11.03.2026: Echocardiography studies distributed on external hard drive.<br> 
+**11.03.2026**: Echocardiography studies distributed on external hard drive.<br> 
 Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379.<br>
 <img src="documentation/images/2026-03-10_Echo-data_SAS-F-5.jpg" width="30%" />
 
