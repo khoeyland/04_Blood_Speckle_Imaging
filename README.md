@@ -40,7 +40,7 @@ Clone the repository by git clone https://github.com/khoeyland/04_Blood_Speckle_
         └── table1.tex
 ```
 
-The documentation/archive folder will contain more files than shown here, but will be left out to keep the file tree short. <br>
+The documentation/archive folder will contain more files than shown here, but will be left out to keep the shown file tree here short. <br>
 
 ## Usage - Blood Speckle Imaging echcoardiography protocol
 
