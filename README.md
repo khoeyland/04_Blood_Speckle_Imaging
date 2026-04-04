@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is part of an echocardiography study where a research cohort woth aortic stenosis patients and healthy controls have been followed over time, with the aim of finding an ultrasound marker for myocardial fibrosis. An echocardiography protocol including High Frane Rate (HFR) ultrasound has been used for this purpose, focusing mainly on the myocardial tissue. Additional high fram rate color doppler echocardiography cine loops with focus on the blood pool (left ventricle and left atrium), and with raw data on IQ level (RF) have been secured in a selection of study participants with adequate acoustic window. This part of the echocardiography study protocol is the basis for the project covered in this repository. Using higher than conventional frame rates for color doppler acquisitions, allows for blood speckle imgaing (BSI).
+This project is part of an echocardiography study in which a research cohort comprising patients with aortic stenosis and healthy controls has been followed over time, with the aim of identifying an ultrasound marker of myocardial fibrosis. An echocardiography protocol that includes High Frame Rate (HFR) ultrasound has been used for this purpose, with a primary focus on myocardial tissue. Additional high frame rate color doppler echocardiography cine loops with focus on the blood pool (left ventricle and left atrium), and with raw data on IQ level (RF) have been secured in a selection of study participants with adequate acoustic window. This part of the echocardiography study protocol is the basis for the project covered in this repository. Using higher than conventional frame rates for color doppler acquisitions allows for blood speckle imaging (BSI).
 
 
 ## Installation
@@ -42,19 +42,19 @@ Clone the repository by git clone https://github.com/khoeyland/04_Blood_Speckle_
 
 The documentation/archive folder will contain more files than shown here, but will be left out to keep the shown file tree here short. <br>
 
-## Usage - Blood Speckle Imaging echcoardiography protocol
+## Usage - Blood Speckle Imaging echocardiography protocol
 
-Blood speckle imaging echocardiography loops are acquired at the end of a comprehensive high frame rate echocardiography protocol - on eligible study participants that also could endure some extra 15-20 minutes on the echo bench.
+Blood speckle imaging echocardiography loops are acquired at the end of a comprehensive high frame rate echocardiography protocol, on eligible study participants who could also endure an additional 20-25 minutes on the echo bench.
 
-A Scan Assist Pro protocol (GE software) has been used to aid in standardization of echo loop acquisitions during scanning, and to optimize data structure for post processing. With the software Scan Assist Pro Creator, files with extension .uep can be opened in this program, and the echo protool will be shown, as it also will have appeared step by step during the ultrasound scanning of the heart.
+A Scan Assist Pro protocol (GE software) has been used to aid in standardization of echo loop acquisitions during scanning, and to optimize data structure for post-processing. With the software Scan Assist Pro Creator, files with extension .uep can be opened in this program, and the echo protocol will be shown, as it also will have appeared step by step during the ultrasound scanning of the heart.
 
-Both information on Scan Assist Pro Creator, and the latest version of Scan Assist Pro protocol, are located in the documentation folder in this repository. The BSI part of the echo study protocol starts - in the latest version - from step 165 and goes to the end of the echo protocol (step 199). Se version history of HFR protocol for the stup of older BSI versions that has existed during the inclusion of study participants.
+Both information on Scan Assist Pro Creator and the latest version of the Scan Assist Pro protocol are located in the documentation folder in this repository. The BSI part of the echo study protocol, in the latest version, starts at step 165 and runs through the end of the echo protocol (step 199). See the version history of the HFR protocol for the setup of older BSI versions that have existed during the inclusion of study participants.
 
-The documentation folder has a subfolder named "archive" where older versions of the Scan Assist Pro protocol used in this poject, are archived. This is for reference, in the rare case it can somehow add structure for the post-processing steps, and for keeping the history of the project. The number of versions reflect technical challanges during the project, and it has mainly affected the part of the protocol that deals with HFR ultrasound on myocardial tissue, and to a lesser extent has it affected the BSI protocol. 
+The documentation folder has a subfolder named "archive" where older versions of the Scan Assist Pro protocol used in this project are archived. This is for reference; in the rare case, it can somehow add structure for the post-processing steps and for keeping the history of the project. The number of versions reflects technical challenges during the project, and it has mainly affected the part of the protocol that deals with HFR ultrasound on myocardial tissue, and to a lesser extent, has affected the BSI protocol. 
 
 The latest Scan Assist Protocol version (23) has file name 2026-02-24_HFR_protocol_Full.uep , and the main parts are:
 
-Step 1-91:    Clinical part of the echocardiagram\
+Step 1-91:    Clinical part of the echocardiogram \
 Step 92-158:  2D HFR ultrasound (2D B-mode, TDI, TDI-IQ)\
 Step 159-164:  3D HFR ultrasound (done only in selected cases)\
 **Step 165-196: BSI part of the protocol**:
