@@ -54,18 +54,6 @@ The documentation folder has a subfolder named "archive" where older versions of
 
 The latest Scan Assist Protocol version (23) has file name 2026-02-24_HFR_protocol_Full.uep , and the main parts are:
 
-::: {#tab:placeholder}
-   **Steps**  **Description**
-  ----------- --------------------------------------------
-    1 - 91    Clinical part of the echocardiogram
-   92 - 158   2D HFR ultrasound (2D B-mode, TDI, TDI-IQ)
-   159 - 164  3D HFR ultrasound
-   165 - 196  BSI protocol
-
-  : Protocol steps as listed in Scan Assist Pro
-:::
-
-
 Step 1-91:    Clinical part of the echocardiogram \
 Step 92-158:  2D HFR ultrasound (2D B-mode, TDI, TDI-IQ)\
 Step 159-164:  3D HFR ultrasound (done only in selected cases)\
@@ -90,7 +78,7 @@ There are also other color flow images from other echo views. The color box has 
 
 ## Intitial data exploration
 
-Study_IDs for echcoardiography studies with best quality from initial judgement during scanning and data cleaning: 
+Study_IDs for echocardiography studies with the best quality as assessed during scanning and initial data cleaning: 
 30404, 83354, 41820, 49675, 51844, 600, 55916, 127, 52979, 92849, 2213, 77705, 27190, 11360, and 42379.
 
 I have created an Excel file with relevant variables to ease data exploration, and to preserve information on data structure. This file is located in the data folder. I link to the file here:\
@@ -101,14 +89,14 @@ I have created an Excel file with relevant variables to ease data exploration, a
 ### 1. Experimental first protocol
 
 Description: Varying color doppler box sector width angle (~ 60, 30, and 15 degrees). With reference to studies done in pediatric cardiology for intraventricular pressure difference (IVPD) assessment of the left ventricle. Imaging mainly performed from apical 4 chamber and PLAX.\
-Study IDs (this info is also coded into a variable in the excel file in data folder): 33154, 70346, 62312, 40987, 50268, 68852, 95209, 59886, 13633. 
+Study IDs (this info is also coded into a variable in the Excel file in the data folder): 33154, 70346, 62312, 40987, 50268, 68852, 95209, 59886, 13633. 
 
 <img width="368" height="106" alt="image" src="https://github.com/user-attachments/assets/0655152d-818e-4df3-9467-16ef109fd42a" />
 
 
 ### 2. Second version of BSI protocol
 
-Description: Covering the whole LV chamber always with the color doppler box. Acquired two images per view (HQ: frame rate knob at lowest level; HFR: frame rate knob at highest level). Approach of varying the color box sector angle (~ 60, 30, and 15 degrees) was abandoned.\
+Description: Covering the whole LV chamber always with the color doppler box. Acquired two images per view (HQ: frame rate knob at lowest level; HFR: frame rate knob at highest level). The approach of varying the color box sector angle (~ 60, 30, and 15 degrees) was abandoned.\
 Study IDs: 21443, 34929, 47637, 66497, 30674, 56075, 28734, 5883, 9849, 9300, 49698, 51762, 92107, 93789, 27190, 77614, 5803, 47205, 31808.
 
 <img width="366" height="210" alt="image" src="https://github.com/user-attachments/assets/411c8995-67d7-469f-bd72-a222581728ea" />
@@ -132,9 +120,9 @@ Study IDs: 30404, 83354, 41820 ( = 41830), 49675, 51844, 600, 97363, 55916, 1136
 
 ## Data structure and history after transfer of echo data from the research echo scanner
 
-All echocardiography studies in this research study, have been exported to external hard drive as DICOM USB Harrdisk/Memstick(...). From 14.03.2025 (study ID 23934) 2025, all echo studies have also been exported as USB Harddisk/Memstick(...).
+All echocardiography studies in this research study have been exported to an external hard drive as DICOM USB Harddisk/Memstick(...). Since 14.03.2025 (study ID 23934), all echo studies have also been exported to a USB Harddisk/Memstick(...).
 
-From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate dicomdir file, and each of these studies have then been arranged in the following manner:
+From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate dicomdir file, and each of these studies has then been arranged in the following manner:
 
 ```
 Study-ID 1/
