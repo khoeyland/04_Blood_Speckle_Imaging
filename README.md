@@ -54,6 +54,22 @@ The documentation folder has a subfolder named "archive" where older versions of
 
 The latest Scan Assist Protocol version (23) has file name 2026-02-24_HFR_protocol_Full.uep , and the main parts are:
 
+\begin{table}
+    \centering
+    \begin{tabular}{cl}
+         \hline
+         \textbf{Steps} & \textbf{Description}\\
+         \hline
+         1 - 91& Clinical part of the echocardiogram\\
+         92 - 158& 2D HFR ultrasound (2D B-mode, TDI, TDI-IQ)\\
+         159 - 164& 3D HFR ultrasound\\
+         165 - 196& BSI protocol\\
+         \hline
+    \end{tabular}
+    \caption{Protocol steps as listed in Scan Assist Pro}
+    \label{tab:placeholder}
+\end{table}
+
 Step 1-91:    Clinical part of the echocardiogram \
 Step 92-158:  2D HFR ultrasound (2D B-mode, TDI, TDI-IQ)\
 Step 159-164:  3D HFR ultrasound (done only in selected cases)\
