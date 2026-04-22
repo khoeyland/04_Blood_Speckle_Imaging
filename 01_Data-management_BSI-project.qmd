@@ -35,4 +35,34 @@ source("R/02_data_cleaning.R")
 
 ```
 
+# Merging of data frames
+
+```{r}
+
+# Running R script in R folder that contains code for merging of availabele data frames.
+
+source("R/03_merging_of_data_frames.R")
+
+```
+
+# Exploratory data analysis and visualization
+
+```{r}
+
+# Running R script in R folder that contains code for exploratory data analysis and visualizations. 
+
+source("R/04_exploratory_data_analysis_and_visualizations.R")
+
+```
+
+# Statistics and reporting
+
+```{r}
+
+# Running R script in R folder that contains code for the more formal statistical analysis and reporting in the project.
+
+source("R/05_statistics_and_reporting.R")
+
+```
+
 
