@@ -25,3 +25,14 @@ source("R/01_import_data.R")
 
 ```
 
+# Cleaning of imported datasets
+
+```{r}
+
+# Running R script in R folder that contains data wrangling steps for imported data frames
+
+source("R/02_data_cleaning.R")
+
+```
+
+
