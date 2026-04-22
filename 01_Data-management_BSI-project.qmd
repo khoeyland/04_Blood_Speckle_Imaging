@@ -1,0 +1,27 @@
+---
+title: "01_Data-wrangling-for_BSI-project"
+author: "Kjell Høyland"
+format: pdf
+editor: visual
+---
+
+# Loading packages
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Importing relevant libraries for the project. This is done in the setup chunk to ensure that the libraries are available for all subsequent chunks in this Quarto file. The libraries are imported here to avoid having to import them in each individual chunk where they are needed, which would be inefficient and could lead to errors if a library is not imported in a chunk where it is needed.
+
+source("R/00_load_packages.R")
+
+```
+
+# Importing relevant data
+
+```{r}
+# Importing relevant raw data and meta data for BSI project
+
+source("R/01_import_data.R")
+
+```
+
