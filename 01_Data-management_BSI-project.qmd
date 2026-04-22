@@ -1,0 +1,68 @@
+---
+title: "01_Data-wrangling-for_BSI-project"
+author: "Kjell Høyland"
+format: pdf
+editor: visual
+---
+
+# Loading packages
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Importing relevant libraries for the project. This is done in the setup chunk to ensure that the libraries are available for all subsequent chunks in this Quarto file. The libraries are imported here to avoid having to import them in each individual chunk where they are needed, which would be inefficient and could lead to errors if a library is not imported in a chunk where it is needed.
+
+source("R/00_load_packages.R")
+
+```
+
+# Importing relevant data
+
+```{r}
+# Importing relevant raw data and meta data for BSI project
+
+source("R/01_import_data.R")
+
+```
+
+# Cleaning of imported datasets
+
+```{r}
+
+# Running R script in R folder that contains data wrangling steps for imported data frames
+
+source("R/02_data_cleaning.R")
+
+```
+
+# Merging of data frames
+
+```{r}
+
+# Running R script in R folder that contains code for merging of availabele data frames.
+
+source("R/03_merging_of_data_frames.R")
+
+```
+
+# Exploratory data analysis and visualization
+
+```{r}
+
+# Running R script in R folder that contains code for exploratory data analysis and visualizations. 
+
+source("R/04_exploratory_data_analysis_and_visualizations.R")
+
+```
+
+# Statistics and reporting
+
+```{r}
+
+# Running R script in R folder that contains code for the more formal statistical analysis and reporting in the project.
+
+source("R/05_statistics_and_reporting.R")
+
+```
+
+
