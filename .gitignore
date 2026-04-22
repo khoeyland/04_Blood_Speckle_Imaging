@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Avoid commiting renv/library/
+renv/library/
+renv/staging/
+renv/cache/
