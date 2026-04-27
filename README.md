@@ -7,7 +7,7 @@ This project is part of an echocardiography study in which a research cohort com
 
 ## Installation
 
-Clone the repository by git clone https://github.com/khoeyland/04_Blood_Speckle_Imaging.git
+Clone the repository by 'git clone https://github.com/khoeyland/04_Blood_Speckle_Imaging.git'
 
 ## Folder tree structure of this repository
 
