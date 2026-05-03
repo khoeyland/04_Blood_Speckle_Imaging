@@ -154,7 +154,6 @@ Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379
 Study ID 15587, 39156, 465, 51618, 14811.<br> 
 <img src="documentation/images/2026-05-03_Echo-data_SAS-F-5.jpg" width="30%" />
 <br>
-<br>
 
 ## Contribution
 
