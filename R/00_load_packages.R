@@ -22,6 +22,8 @@ library(sjmisc)        # For descriptive statistics
 library(skimr)         # For descriptive statistics
 library(gridExtra)     # For converrting dataframes to tables into "graphical tables"
 library(gtExtras)      # For making tables, it includes the gt package.
+library(webshot2)      # For help to export images created in gt(). Cannot make it work on this PC.
+library(pagedown)      # AN alternative to webshot2 package for storing gt-tables as pictures.
 library(RColorBrewer)  # To get nice color palettes to use in R
 library(gapminder)     # A data set to work with
 library(vistime)       # For visualizing patient timelines
