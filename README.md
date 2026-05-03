@@ -79,7 +79,7 @@ There are also other color flow images from other echo views. The color box has 
 
 ## Intitial data exploration
 
-Study_IDs for echocardiography studies with the best quality as assessed during scanning and initial data cleaning: 
+Study IDs for echocardiography studies with the best quality as assessed during scanning and initial data management: 
 30404, 83354, 41820, 49675, 51844, 600, 55916, 127, 52979, 92849, 2213, 77705, 27190, 11360, 42379, and 39156.
 
 I have created an Excel file with relevant variables to ease data exploration, and to preserve information on data structure. This file is located in the data folder. I link to the file here:\
