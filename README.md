@@ -90,16 +90,14 @@ I have created an Excel file with relevant variables to ease data exploration, a
 ### 1. Experimental first protocol
 
 Description: Varying color doppler box sector width angle (~ 60, 30, and 15 degrees). With reference to studies done in pediatric cardiology for intraventricular pressure difference (IVPD) assessment of the left ventricle. Imaging mainly performed from apical 4 chamber and PLAX.\
-Study IDs (this info is also coded into the variable `bsi_protocol_version`
-<img width="140" height="21" alt="image" src="https://github.com/user-attachments/assets/540bb05f-4afa-433e-a974-1c5fba44af5d" />
- in the Excel file in the data folder): 33154, 70346, 62312, 40987, 50268, 68852, 95209, 59886, 13633. 
+Study IDs (this info is also coded into the variable `bsi_protocol_version` in the Excel file in the data folder): 33154, 70346, 62312, 40987, 50268, 68852, 95209, 59886, 13633. 
 
 <img width="368" height="106" alt="image" src="https://github.com/user-attachments/assets/0655152d-818e-4df3-9467-16ef109fd42a" />
 
 
 ### 2. Second version of BSI protocol
 
-Description: Covering the whole LV chamber always with the color doppler box. Acquired two images per view (HQ: frame rate knob at lowest level; HFR: frame rate knob at highest level). The approach of varying the color box sector angle (~ 60, 30, and 15 degrees) was abandoned.\
+Description: Covering the whole LV chamber always with the color doppler box. Acquiring two images per view (HQ: frame rate knob at lowest level; HFR: frame rate knob at highest level). The approach of varying the color box sector angle (~ 60, 30, and 15 degrees) was abandoned.\
 Study IDs: 21443, 34929, 47637, 66497, 30674, 56075, 28734, 5883, 9849, 9300, 49698, 51762, 92107, 93789, 27190, 77614, 5803, 47205, 31808.
 
 <img width="366" height="210" alt="image" src="https://github.com/user-attachments/assets/411c8995-67d7-469f-bd72-a222581728ea" />
@@ -123,9 +121,9 @@ Study IDs: 30404, 83354, 41820 ( = 41830), 49675, 51844, 600, 97363, 55916, 1136
 
 ## Data structure and history after transfer of echo data from the research echo scanner
 
-All echocardiography studies in this research study have been exported to an external hard drive as DICOM USB Harddisk/Memstick(...). Since 14.03.2025 (study ID 23934), all echo studies have also been exported to a USB Harddisk/Memstick(...).
+All echocardiography studies in this research study have been exported to an external hard drive as `DICOM USB Harddisk/Memstick(...)`. Since 14.03.2025 (study ID 23934), all echo studies have in addition been exported as `USB Harddisk/Memstick(...)`.
 
-From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate dicomdir file, and each of these studies has then been arranged in the following manner:
+From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate \texttt{{dicomdir} file, and each of these studies has then been arranged in the following manner:
 
 ```
 Study-ID 1/
@@ -139,9 +137,9 @@ Study-ID 3/
     └── DICOMDIR
 ```
 
-There are also a few research echo study from before 12.12.2025 that has been exported from the E95 scanner in such a way that a separate dicom dir file was secured for the study. These were echo studies that had still not been deleted from the echo scanner at that point, and a repeat export could then be done. These echo studies are study IDs 2213 (18.11.2025) and 27190 (28.07.2025).
+There are also a few research echo study from before 12.12.2025 that has been exported from the E95 scanner in such a way that a separate \texttt{{dicomdir} file was secured for the study. These were echo studies that had still not been deleted from the echo scanner at that point, and a repeat export could then be done. These echo studies are study IDs 2213 (18.11.2025) and 27190 (28.07.2025).
 
-**28.11.2025**: For all the other echo studies in the project that do not have been exported in such a way that a separate dicomdir file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to be able to separate different components of the echo studies from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with. The output from this Python script was stored on an external hard drive borrowed from Lasse, in a folder named: To Hang Jung
+**28.11.2025**: For all the other echo studies in the project that do not have been exported in such a way that a separate \texttt{{dicomdir} file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to better be able to separate different components of each echo study from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with. The output from this Python script was stored on an external hard drive borrowed from Lasse Løvstakken, in a folder named: To Hang Jung
 
 **13.01.2026**: Echocardiography studies distributed on external hard drive.<br>
 Study ID 28619, 30404, 83354, 41830, 49675.<br> 
@@ -160,7 +158,7 @@ Study ID 15587, 39156, 465, 51618, 14811.<br>
 
 ## Contribution
 
-I am very grateful for invaluable engineering support from Hang Jung Ling ( @HangJung97 ), Lasse Løvstakken, and Solveig Fadnes in this project.
+I am very grateful for invaluable engineering support from Hang Jung Ling ( @HangJung97 ), Lasse Løvstakken, Solveig Fadnes, and Thomas Grønli in this project.
 
 Pull requests are welcomed. One can open an Issue or use Discussion for issues or discussions regarding the project.
 
