@@ -90,7 +90,7 @@ I have created an Excel file with relevant variables to ease data exploration, a
 ### 1. Experimental first protocol
 
 Description: Varying color doppler box sector width angle (~ 60, 30, and 15 degrees). With reference to studies done in pediatric cardiology for intraventricular pressure difference (IVPD) assessment of the left ventricle. Imaging mainly performed from apical 4 chamber and PLAX.\
-Study IDs (this info is also coded into the variable bsi_protocol_version
+Study IDs (this info is also coded into the variable `bsi_protocol_version`
 <img width="140" height="21" alt="image" src="https://github.com/user-attachments/assets/540bb05f-4afa-433e-a974-1c5fba44af5d" />
  in the Excel file in the data folder): 33154, 70346, 62312, 40987, 50268, 68852, 95209, 59886, 13633. 
 
