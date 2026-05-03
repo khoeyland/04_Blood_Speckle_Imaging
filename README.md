@@ -123,7 +123,7 @@ Study IDs: 30404, 83354, 41820 ( = 41830), 49675, 51844, 600, 97363, 55916, 1136
 
 All echocardiography studies in this research study have been exported to an external hard drive as `DICOM USB Harddisk/Memstick(...)`. Since 14.03.2025 (study ID 23934), all echo studies have in addition been exported as `USB Harddisk/Memstick(...)`.
 
-From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate \texttt{{dicomdir} file, and each of these studies has then been arranged in the following manner:
+From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate `dicomdir` file, and each of these studies has then been arranged in the following manner:
 
 ```
 Study-ID 1/
@@ -137,9 +137,9 @@ Study-ID 3/
     └── DICOMDIR
 ```
 
-There are also a few research echo study from before 12.12.2025 that has been exported from the E95 scanner in such a way that a separate \texttt{{dicomdir} file was secured for the study. These were echo studies that had still not been deleted from the echo scanner at that point, and a repeat export could then be done. These echo studies are study IDs 2213 (18.11.2025) and 27190 (28.07.2025).
+There are also a few research echo study from before 12.12.2025 that has been exported from the E95 scanner in such a way that a separate `dicomdir` file was secured for the study. These were echo studies that had still not been deleted from the echo scanner at that point, and a repeat export could then be done. These echo studies are study IDs 2213 (18.11.2025) and 27190 (28.07.2025).
 
-**28.11.2025**: For all the other echo studies in the project that do not have been exported in such a way that a separate \texttt{{dicomdir} file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to better be able to separate different components of each echo study from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with. The output from this Python script was stored on an external hard drive borrowed from Lasse Løvstakken, in a folder named: To Hang Jung
+**28.11.2025**: For all the other echo studies in the project that do not have been exported in such a way that a separate `dicomdir` file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to better be able to separate different components of each echo study from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with. The output from this Python script was stored on an external hard drive borrowed from Lasse Løvstakken, in a folder named: To Hang Jung
 
 **13.01.2026**: Echocardiography studies distributed on external hard drive.<br>
 Study ID 28619, 30404, 83354, 41830, 49675.<br> 
