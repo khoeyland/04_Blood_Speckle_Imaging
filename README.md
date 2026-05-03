@@ -83,7 +83,7 @@ Study_IDs for echocardiography studies with the best quality as assessed during 
 30404, 83354, 41820, 49675, 51844, 600, 55916, 127, 52979, 92849, 2213, 77705, 27190, 11360, 42379, and 39156.
 
 I have created an Excel file with relevant variables to ease data exploration, and to preserve information on data structure. This file is located in the data folder. I link to the file here:\
-[2026-03-28_BSI-and-TDI_SAS-F-5.xlsx](data/2026-03-28_BSI-and-TDI_SAS-F-5.xlsx)
+[2026-05-03_BSI-and-TDI_SAS-F-5.xlsx](data/2026-05-03_BSI-and-TDI_SAS-F-5.xlsx)
 
 ## Version history of BSI protocol
 
