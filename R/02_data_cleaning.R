@@ -6,16 +6,16 @@ study_cohort_data <- study_cohort_data |>
   set_variable_labels(
     id                     = "Study ID",
     echo_exam_date         = "Date of echo exam",
-    scan_assist_pro_v      = "Version of Scan Assist Pro used",
+    scan_assist_pro_v      = "Version of Scan Assist Pro",
     study_group            = "Study group",
     heart_rhythm           = "Heart rhythm",
-    valve_status           = "Aortic valve status",
-    acoustic_window        = "Quality of acoustic window during echo",
+    valve_status           = "AV status",
+    acoustic_window        = "Acoustic window qual.",
     hfr_bsi                = "Quality of BSI data",
     bsi_acquisition_method = "Methos of aqcuisition",
     bsi_protocol_version   = "Version of BSI protocol",
-    other_pathology_av     = "Other aortic valve pathology",
-    pathology_mv           = "Other mitral valve pathology")
+    other_pathology_av     = "Other AV pathology",
+    pathology_mv           = "MV pathology")
 
 
 

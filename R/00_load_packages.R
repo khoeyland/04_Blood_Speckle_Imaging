@@ -22,6 +22,8 @@ library(sjmisc)        # For descriptive statistics
 library(skimr)         # For descriptive statistics
 library(gridExtra)     # For converrting dataframes to tables into "graphical tables"
 library(gtExtras)      # For making tables, it includes the gt package.
+library(RColorBrewer)  # To get nice color palettes to use in R
+library(gapminder)     # A data set to work with
 library(vistime)       # For visualizing patient timelines
 library(ggplot2)       # For visualizations
 library(scales)        # for label_number and pretty_breaks functions

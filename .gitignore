@@ -52,3 +52,4 @@ rsconnect/
 renv/library/
 renv/staging/
 renv/cache/
+.positai
