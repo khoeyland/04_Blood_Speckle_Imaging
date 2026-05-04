@@ -4,44 +4,10 @@
 
 This project is part of an echocardiography study in which a research cohort comprising patients with aortic stenosis and healthy controls has been followed over time, with the aim of identifying an ultrasound marker of myocardial fibrosis. An echocardiography protocol that includes High Frame Rate (HFR) ultrasound has been used for this purpose, with a primary focus on myocardial tissue. Additional high frame rate color doppler echocardiography cine loops with focus on the blood pool (left ventricle and left atrium), and with raw data on IQ level (RF) have been secured in a selection of study participants with adequate acoustic window. This part of the echocardiography study protocol is the basis for the project covered in this repository. Using higher than conventional frame rates for color doppler acquisitions allows for blood speckle imaging (BSI).
 
-
 ## Installation
 
 Clone the repository by `git clone https://github.com/khoeyland/04_Blood_Speckle_Imaging.git`
 
-## Folder tree structure of this repository
-
-```
-04_Blood_Speckle_Imaging/
-├── .gitignore
-├── R/
-│   └── 01_read_data.R
-├── README.md
-├── data/
-│   └── 2026-05-03_BSI-and-TDI_SAS-F-5.xlsx
-├── documentation/
-│   ├── 2026-02-24_HFR-protocol_Full.uep
-│   ├── 2026-03-11_Scan-assist-pro_steps-outlined-with-comments.pdf
-│   ├── Vivid S70 204 Scan Assist Pro Creator.pdf
-│   ├── archive/
-│   │   └── 2025-12-12_HFR-protocol_Full.uep
-│   └── images/
-│       ├── 2026-01-13_Echo-data_SAS-F-5.jpg
-│       └── 2026-03-10_Echo-data_SAS-F-5.jpg
-├── manuscript/
-│   ├── main.tex
-│   └── sections/
-│       ├── introduction.tex
-│       └── methods.tex
-└── output/
-    ├── figures/
-    │   
-    └── tables/
-        └── 2026-05-03_meta-data-for-bsi-imaging.pdf
-        └── 2026-05-03_codebook-for meta-data-variables.png
-```
-
-The documentation/archive folder will over time contain more files than shown here, it will be updated ocassionally with added files, but the file tree folder structure will be unchanged. 
 
 ## Usage - Blood Speckle Imaging echocardiography protocol
 
@@ -156,6 +122,40 @@ Study ID 94360, 29408, 51844, 600, 97363, 55916, 11360, 127, 52979, 92849, 42379
 Study ID 15587, 39156, 465, 51618, 14811.<br> 
 <img src="documentation/images/2026-05-03_Echo-data_SAS-F-5.jpg" width="30%" />
 <br>
+
+## Folder tree structure of this repository
+
+```
+04_Blood_Speckle_Imaging/
+├── .gitignore
+├── R/
+│   └── 01_read_data.R
+├── README.md
+├── data/
+│   └── 2026-05-03_BSI-and-TDI_SAS-F-5.xlsx
+├── documentation/
+│   ├── 2026-02-24_HFR-protocol_Full.uep
+│   ├── 2026-03-11_Scan-assist-pro_steps-outlined-with-comments.pdf
+│   ├── Vivid S70 204 Scan Assist Pro Creator.pdf
+│   ├── archive/
+│   │   └── 2025-12-12_HFR-protocol_Full.uep
+│   └── images/
+│       ├── 2026-01-13_Echo-data_SAS-F-5.jpg
+│       └── 2026-03-10_Echo-data_SAS-F-5.jpg
+├── manuscript/
+│   ├── main.tex
+│   └── sections/
+│       ├── introduction.tex
+│       └── methods.tex
+└── output/
+    ├── figures/
+    │   
+    └── tables/
+        └── 2026-05-03_meta-data-for-bsi-imaging.pdf
+        └── 2026-05-03_codebook-for meta-data-variables.png
+```
+
+The documentation/archive folder will over time contain more files than shown here, it will be updated ocassionally with added files, but the file tree folder structure will be unchanged. 
 
 ## Contribution
 
