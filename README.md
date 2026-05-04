@@ -37,7 +37,8 @@ Clone the repository by `git clone https://github.com/khoeyland/04_Blood_Speckle
     ├── figures/
     │   
     └── tables/
-        └── table1.tex
+        └── 2026-05-03_meta-data-for-bsi-imaging.pdf
+        └── 2026-05-03_codebook-for meta-data-variables.png
 ```
 
 The documentation/archive folder will over time contain more files than shown here, it will be updated ocassionally with added files, but the file tree folder structure will be unchanged. 
