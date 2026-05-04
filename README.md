@@ -18,7 +18,7 @@ Clone the repository by `git clone https://github.com/khoeyland/04_Blood_Speckle
 │   └── 01_read_data.R
 ├── README.md
 ├── data/
-│   └── 2026-03-11_BSI-and-TDI_SAS-F-5.xlsx
+│   └── 2026-05-03_BSI-and-TDI_SAS-F-5.xlsx
 ├── documentation/
 │   ├── 2026-02-24_HFR-protocol_Full.uep
 │   ├── 2026-03-11_Scan-assist-pro_steps-outlined-with-comments.pdf
@@ -35,12 +35,12 @@ Clone the repository by `git clone https://github.com/khoeyland/04_Blood_Speckle
 │       └── methods.tex
 └── output/
     ├── figures/
-    │   └── fig1.pdf
+    │   
     └── tables/
         └── table1.tex
 ```
 
-The documentation/archive folder will over time contain more files than shown here, it will be updated ocassionally with added files, but the file tree folder structure will be unchanged. Excel file in data folder has been updated to date 2026-05-03 in the file name. <br>
+The documentation/archive folder will over time contain more files than shown here, it will be updated ocassionally with added files, but the file tree folder structure will be unchanged. 
 
 ## Usage - Blood Speckle Imaging echocardiography protocol
 
@@ -160,6 +160,5 @@ Study ID 15587, 39156, 465, 51618, 14811.<br>
 
 I am very grateful for invaluable engineering support from Hang Jung Ling ( @HangJung97 ), Lasse Løvstakken, Solveig Fadnes, and Thomas Grønli in this project.
 
-Pull requests are welcomed. One can open an Issue or use Discussion for issues or discussions regarding the project.
 
 
