@@ -114,7 +114,7 @@ Study-ID 3/
     └── DICOMDIR
 ```
 
-There are also a few research echo study from before 12.12.2025 that has been exported from the E95 scanner in such a way that a separate `dicomdir` file was secured for the study. These were echo studies that had still not been deleted from the echo scanner at that point, and a repeat export could then be done. These echo studies are study IDs 2213 (18.11.2025) and 27190 (28.07.2025).
+There are also a few research echo studies from before 12.12.2025 that have been exported from the E95 scanner in such a way that a separate `dicomdir` file was secured for the study. These were echo studies that had still not been deleted from the echo scanner at that point, and a repeat export could then be done. These echo studies are study IDs 2213 (18.11.2025) and 27190 (28.07.2025).
 
 **28.11.2025**: For all the other echo studies in the project that do not have been exported in such a way that a separate `dicomdir` file for each study was created, Solveig Fadnes helped me on 28.11.2025 to have these echo studies undergo a Python script, in order to better be able to separate different components of each echo study from one another. This Python script did not fully complete, but I understand that most of the studies were dealth with. The output from this Python script was stored on an external hard drive borrowed from Lasse Løvstakken, in a folder named: To Hang Jung
 
