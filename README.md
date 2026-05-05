@@ -148,7 +148,7 @@ Study ID 15587, 39156, 465, 51618, 14811.<br>
 │   ├── 2026-03-11_Scan-assist-pro_steps-outlined-with-comments.pdf
 │   ├── Vivid S70 204 Scan Assist Pro Creator.pdf
 │   ├── archive/
-│   │   └── 2025-12-12_HFR-protocol_Full.uep
+│   │   └── ... Older Scan Assist Pro protocols used in the project.
 │   └── images/
 │       ├── 2026-01-13_Echo-data_SAS-F-5.jpg
 │       └── 2026-03-10_Echo-data_SAS-F-5.jpg
