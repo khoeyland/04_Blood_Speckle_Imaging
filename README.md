@@ -139,7 +139,7 @@ Study ID 15587, 39156, 465, 51618, 14811.<br>
 04_Blood_Speckle_Imaging/
 ├── .gitignore
 ├── R/
-│   └── 01_read_data.R
+│   └── ... R scripts goes here
 ├── README.md
 ├── data/
 │   └── 2026-05-03_BSI-and-TDI_SAS-F-5.xlsx
@@ -165,7 +165,7 @@ Study ID 15587, 39156, 465, 51618, 14811.<br>
         └── 2026-05-03_codebook-for meta-data-variables.png
 ```
 
-The documentation/archive folder will over time contain more files than shown here, it will be updated ocassionally with added files, but the file tree folder structure will be unchanged. 
+The folders will over time contain more files than shown here, it will be updated ocassionally with added files, but the file tree folder structure will be left unchanged. 
 
 ## Contribution
 
