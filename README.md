@@ -100,7 +100,7 @@ Study IDs: 30404, 83354, 41820 ( = 41830), 49675, 51844, 600, 97363, 55916, 1136
 
 All echocardiography studies in this research study have been exported to an external hard drive as `DICOM USB Harddisk/Memstick(...)`. Since 14.03.2025 (study ID 23934), all echo studies have in addition been exported as `USB Harddisk/Memstick(...)`.
 
-From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate `dicomdir` file, and each of these studies has then been arranged in the following manner:
+From 12.12.2025 (study ID 28619) and onwards, echocardiography studies have in addition been exported from the scanner in such a way that each study have their own separate `dicomdir` file (the export format used here is `DICOM USB Harddisk/Memstick(...)`), and each of these studies has then been arranged in the following manner:
 
 ```
 Study-ID 1/
