@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1133703386.svg)](https://doi.org/10.5281/zenodo.22251314)
+
 # Project on Blood Speckle Imaging (BSI) at NTNU, Trondheim
 
 ## Project Description
